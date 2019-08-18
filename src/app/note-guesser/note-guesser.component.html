@@ -1,0 +1,11 @@
+<section>
+  <app-abc-note [note]="note"></app-abc-note>
+</section>
+<section>
+  <app-note-button
+  *ngFor="let optionNote of optionNotes"
+  [note]="optionNote"
+  (activate)="guessNote(optionNote)">
+</app-note-button>
+</section>
+

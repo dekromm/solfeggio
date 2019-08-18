@@ -8,13 +8,17 @@ import { AppComponent } from './app.component';
 import { ExampleComponent } from './example/example.component';
 import { NoteButtonComponent } from './note-button/note-button.component';
 import { AbcNoteComponent } from './abc-note/abc-note.component';
+import { NoteGuesserComponent } from './note-guesser/note-guesser.component';
+import { GuesserGameComponent } from './guesser-game/guesser-game.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ExampleComponent,
     NoteButtonComponent,
-    AbcNoteComponent
+    AbcNoteComponent,
+    NoteGuesserComponent,
+    GuesserGameComponent
   ],
   imports: [
     AppRoutingModule,
