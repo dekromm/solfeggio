@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ExampleComponent } from './example/example.component';
 import { NoteButtonComponent } from './note-button/note-button.component';
+import { AbcNoteComponent } from './abc-note/abc-note.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ExampleComponent,
-    NoteButtonComponent
+    NoteButtonComponent,
+    AbcNoteComponent
   ],
   imports: [
     AppRoutingModule,
