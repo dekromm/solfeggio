@@ -17,7 +17,6 @@ export class AbcNoteComponent implements OnChanges {
 
   ngOnChanges() {
     const abc = `${this.note}2`;
-    console.log('rendering!', abc);
     ABCJS.renderAbc(this.container.nativeElement, abc);
   }
 

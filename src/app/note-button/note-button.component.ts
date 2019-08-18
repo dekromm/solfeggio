@@ -16,7 +16,6 @@ export class NoteButtonComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    console.log(this.note);
   }
 
   handleClick(): void {

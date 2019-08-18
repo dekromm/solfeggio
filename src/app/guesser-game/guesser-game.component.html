@@ -1,0 +1,3 @@
+<h1>The guesser game</h1>
+<p>Do you know which note is this? (YES: {{ hit }}; NO {{ miss }})</p>
+<app-note-guesser [note]="generatedNote" (guess)="handleGuess($event)"></app-note-guesser>

@@ -19,6 +19,5 @@ export class ExampleComponent implements OnInit {
   setRandomNote(): void {
     const notesKeys = Object.values(Notes) as unknown as Notes[];
     this.note = notesKeys[Math.floor(Math.random() * notesKeys.length)];
-    console.log(this.note);
   }
 }
